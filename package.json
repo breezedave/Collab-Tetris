@@ -1,0 +1,20 @@
+{
+  "name": "Collab-Tetris",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "debug": "^3.2.6",
+    "discord.js": "^12.2.0",
+    "raf": "^3.4.1"
+  },
+  "devDependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
