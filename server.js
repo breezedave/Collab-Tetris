@@ -22,7 +22,7 @@ class Server {
             console.log("Ready");
         }
 
-        messageReceived(message) {
+        messageReceived = (message) => {
             let key;
 
             if(message.channel.name.toLowerCase() !== "tetris") return;
